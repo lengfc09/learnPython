@@ -1,0 +1,17 @@
+INFO:root:ran with args: ('peter', 26), and kwargs: {}
+INFO:root:ran with args: ('peter', 26), and kwargs: {}
+INFO:root:ran with args: ('peter', 26), and kwargs: {}
+INFO:root:ran with args: ('hank', 26), and kwargs: {}
+INFO:root:ran with args: ('hank', 26), and kwargs: {}
+INFO:root:ran with args: ('hank', 26), and kwargs: {}
+INFO:root:ran with args: ('hank', 26), and kwargs: {}
+INFO:root:ran with args: ('hank', 26), and kwargs: {}
+INFO:root:ran with args: ('hank', 26), and kwargs: {}
+INFO:root:ran with args: ('hank', 26), and kwargs: {}
+INFO:root:ran with args: ('hank', 26), and kwargs: {}
+INFO:root:ran with args: ('hank', 26), and kwargs: {}
+INFO:root:ran with args: ('hank', 26), and kwargs: {}
+INFO:root:ran with args: ('hank', 26), and kwargs: {}
+INFO:root:display44 ran in: 1.0967254638671875e-05 seconds
+INFO:root:ran with args: ('hank', 26), and kwargs: {}
+INFO:root:display44 ran in: 1.0251998901367188e-05 seconds

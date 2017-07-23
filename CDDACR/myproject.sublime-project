@@ -1,0 +1,17 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"C:/Users/0100061925/AppData/Local/Continuum/Anaconda3/python.exe\" -u \"$file\""
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "C:\\Users\\0100061925\\OneDrive - myownBsns\\同步盘\\Jupyter\\pythons"
+		}
+	]
+}

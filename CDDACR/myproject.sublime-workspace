@@ -1,0 +1,336 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"to",
+				"today\tfunction"
+			],
+			[
+				"dat",
+				"datetime\tclass"
+			],
+			[
+				"peopls",
+				"peopls2\tstatement"
+			],
+			[
+				"gen",
+				"gen_people\tfunction"
+			],
+			[
+				"get",
+				"get_people\tfunction"
+			],
+			[
+				"chi",
+				"choices\tstatement"
+			],
+			[
+				"peope",
+				"people_num\tstatement"
+			],
+			[
+				"co",
+				"choices\tstatement"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sy",
+				"Set Syntax: Python"
+			],
+			[
+				"syntax ",
+				"Set Syntax: Python"
+			],
+			[
+				"ma",
+				"Material Theme: Activate theme"
+			],
+			[
+				"reverse",
+				"Permute Lines: Reverse"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"syntax: python",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 382.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CDDACR",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50"
+	],
+	"file_history":
+	[
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/readA67.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/5_graph&pandas.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CDDACR/mainprog.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/test.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CDDACR/tables.xlsx",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/test2.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CDDACR/textwriteMDL.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/test2.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/test.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/temp.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/8_OOP2_Tutorial.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/7_OOP_Tutorial_1.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/6_Decorators.py",
+		"/C/Users/0100061925/AppData/Roaming/Sublime Text 3/Packages/User/MyPython.sublime-build",
+		"/C/Users/0100061925/AppData/Roaming/Sublime Text 3/Packages/User/python3.5.sublime-build",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/4_Generator_tutorial.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CDDACR/calculate.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/3_FILEMDL.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/2_DatetimeMDL.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/1_OSMDL.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/0_textwriteMDL.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/mytxt.txt",
+		"/C/Users/0100061925/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/9_OOP3_Classmethods_and_staticmethods.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CDDACR/test.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CDDACR/mytxt.txt",
+		"/C/Users/0100061925/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Default (Windows).sublime-keymap",
+		"/C/Users/0100061925/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/OSMDL.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/FILEMDL.py",
+		"/C/Users/0100061925/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CDDACR/test2.py",
+		"/C/Users/0100061925/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/0100061925/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/Users/0100061925/AppData/Roaming/Sublime Text 3/Packages/anaconda_go/README.md",
+		"/C/Users/0100061925/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/C/Users/0100061925/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/GPV_VALUES.xls",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/hello.xlsx",
+		"/C/Users/0100061925/Desktop/核对vba代码.txt"
+	],
+	"find":
+	{
+		"height": 72.0
+	},
+	"find_in_files":
+	{
+		"height": 164.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"1018",
+			"1008",
+			"CWAADY",
+			"8042",
+			"8942",
+			"import",
+			"xdsf",
+			"x",
+			"\\",
+			"\\\\",
+			"python_",
+			"/",
+			"python_",
+			"python",
+			"path",
+			"python",
+			"path"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 72.0
+	},
+	"input":
+	{
+		"height": 72.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 238.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/MyPython.sublime-build",
+	"project": "myproject.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
