@@ -12,3 +12,5 @@ import pandas as pd
 from scipy import *
 
 import test2
+
+print(1855.00000000000 * 0.89828640000)

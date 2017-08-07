@@ -4,8 +4,3 @@ Letes try this again.
 This is great!!
 
 6. One more line.
-<<<<<<< HEAD
-what the fuck:
-=======
-7. we want more
->>>>>>> 3bfbd0e2a96b187af4bc01111ec2f21ce32a239a

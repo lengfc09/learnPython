@@ -1,6 +1,9 @@
 import datetime
+
+
 def main():
-    print("working here on", datetime.date.today())
+    dd = get_string()
+    print("working here on with {}".format(dd), datetime.date.today())
 
 
 def get_string():

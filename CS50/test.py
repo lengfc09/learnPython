@@ -22,18 +22,18 @@ import sys
 for i in range(len(sys.argv)):
     print(sys.argv[i])
 
-print("sd f ")
-print("sd f ".strip())
-print("sdf\n", end="")
-print("sdf\n".rstrip("\n"), end="")
-print()
-print("dsfsdf".find("f", 4))
+# print("sd f ")
+# print("sd f ".strip())
+# print("sdf\n", end="")
+# print("sdf\n".rstrip("\n"), end="")
+# print()
+# print("dsfsdf".find("f", 4))
 
 import random
 # random.choice: return an element
 # random.choices: return a subset
-# x, y = random.choice([(0, 1), (3, 4)])
-x = random.choice((-1, 1))
+x, y = random.choice([(0, 1), (3, 4)])
+# x = random.choice((-1, 1))
 print(x)
 
 # an experiment
