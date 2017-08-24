@@ -7,10 +7,27 @@ TODO:
 """
 
 import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-from scipy import *
+# import matplotlib.pyplot as plt
+# import pandas as pd
+# from scipy import *
 
-import test2
+mysq = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 
-print(1855.00000000000 * 0.89828640000)
+
+def findmaxsq(sq):
+    maxsum = 0
+    for i in range(len(sq)):
+        for j in range(len(sq) - i):
+            temp = sum(sq[i:i + j])
+            if temp > maxsum:
+                maxsum = temp
+                rst = sq[i:i + j]
+    print("found")
+    return rst
+
+
+# print(findmaxsq(mysq))
+x = 100.00000000000
+
+y =
+print()

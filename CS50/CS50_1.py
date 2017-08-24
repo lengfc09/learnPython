@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from scipy import *
 
-import test2
+import CS50_2
 
 # s = test2.get_string()
 # ss2 = input("name: ")
@@ -27,7 +27,7 @@ for i in range(len(sys.argv)):
 # print("sdf\n", end="")
 # print("sdf\n".rstrip("\n"), end="")
 # print()
-# print("dsfsdf".find("f", 4))
+print("dsfsdf".find("f", 4))
 
 import random
 # random.choice: return an element
@@ -37,18 +37,18 @@ x, y = random.choice([(0, 1), (3, 4)])
 print(x)
 
 # an experiment
-# S = 0
-# PP = list()
-# for j in range(1000):
-#     P = 0
-#     N = 0
-#     for i in range(1000):
-#         x = random.choice([1, -1])
-#         if x == 1:
-#             P += 1
-#         else:
-#             N += 1
-#     PP.append(P)
+S = 0
+PP = list()
+for j in range(1000):
+    P = 0
+    N = 0
+    for i in range(1000):
+        x = random.choice([1, -1])
+        if x == 1:
+            P += 1
+        else:
+            N += 1
+    PP.append(P)
 
-# plt.hist(PP, bins=30, edgecolor="#000000")
-# plt.show()
+plt.hist(PP, bins=30, edgecolor="#000000")
+plt.show()
