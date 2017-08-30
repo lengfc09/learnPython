@@ -2,11 +2,11 @@ import datetime
 d = datetime.date(2016, 7, 24)
 tday = datetime.date.today()
 print("Today is:", tday)
-# print(tday.day)
-# print(tday.year)
-# print(tday.month)
-# print(tday.weekday())
-# print(d.isoweekday())
+print(tday.day)
+print(tday.year)
+print(tday.month)
+print(tday.weekday())
+print(d.isoweekday())
 
 
 tdelta = datetime.timedelta(days=7)

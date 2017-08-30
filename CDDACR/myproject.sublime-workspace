@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"cur",
+				"cursor\tfunction"
+			],
+			[
+				"for",
+				"format\tfunction"
+			],
+			[
 				"to",
 				"today\tfunction"
 			],
@@ -40,19 +48,27 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/9_OOP3_Classmethods_and_staticmethods.py",
+			"file": "/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/Expert1.py",
 			"settings":
 			{
-				"buffer_size": 2835,
+				"buffer_size": 492,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/readA67.py",
+			"file": "/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/conndb2.py",
 			"settings":
 			{
-				"buffer_size": 756,
+				"buffer_size": 26,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/SQL/SQL_01.py",
+			"settings":
+			{
+				"buffer_size": 3466,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -179,20 +195,36 @@
 	"expanded_folders":
 	[
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons",
-		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50",
-		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial"
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CDDACR",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/SQL"
 	],
 	"file_history":
 	[
+		"/C/Users/0100061925/AppData/Roaming/Sublime Text 3/Packages/User/sql_cur_execute.sublime-snippet",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/User.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/ctx.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/2_DatetimeMDL.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/Library.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/test.db",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/8_OOP2_Tutorial.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/9_OOP3_Classmethods_and_staticmethods.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/discRates.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/CS50_2.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/CS50_1.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/conndb2.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/codewars.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Econometrics/econometrics.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/test2.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/test.py",
+		"/C/Users/0100061925/Desktop/明天问瑞瑞",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/ExpertInPython.py",
+		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/readA67.py",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/7_OOP_Tutorial_1.py",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/6_Decorators.py",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/display44.log",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/5_graph&pandas.py",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/4_Generator_tutorial.py",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/3_FILEMDL.py",
-		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/test.py",
-		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/2_DatetimeMDL.py",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/1_OSMDL.py",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/smt.txt",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/0_textwriteMDL.py",
@@ -203,20 +235,17 @@
 		"/C/Users/0100061925/.ssh/id_rsa",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/txt",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/leanGIT.txt",
-		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/readA67.py",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CDDACR/mainprog.py",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/test.py",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CDDACR/tables.xlsx",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/test2.py",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CDDACR/textwriteMDL.py",
-		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/test2.py",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/temp.py",
 		"/C/Users/0100061925/AppData/Roaming/Sublime Text 3/Packages/User/MyPython.sublime-build",
 		"/C/Users/0100061925/AppData/Roaming/Sublime Text 3/Packages/User/python3.5.sublime-build",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CDDACR/calculate.py",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/mytxt.txt",
 		"/C/Users/0100061925/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
-		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/9_OOP3_Classmethods_and_staticmethods.py",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CDDACR/test.py",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CDDACR/mytxt.txt",
 		"/C/Users/0100061925/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Default (Windows).sublime-keymap",
@@ -251,6 +280,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"choice",
+			"time",
+			"\n   ",
+			"time",
+			"timestam",
+			"dict",
+			"disc",
+			"zip",
+			"find",
+			"choice",
 			"mytimer",
 			"mylog",
 			"1018",
@@ -287,54 +326,67 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/Tutorial/9_OOP3_Classmethods_and_staticmethods.py",
+					"file": "/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/Expert1.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2835,
+						"buffer_size": 492,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2131,
-								2131
+								310,
+								310
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.go"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2662.0,
+						"translation.y": 75.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/readA67.py",
+					"file": "/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/conndb2.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 756,
+						"buffer_size": 26,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								587,
-								587
+								0,
+								0
 							]
 						],
 						"settings":
@@ -346,6 +398,52 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/SQL/SQL_01.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3466,
+								3466
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.go"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2587.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -384,7 +482,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 238.0
+		"height": 239.0
 	},
 	"output.find_results":
 	{

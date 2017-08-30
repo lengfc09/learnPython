@@ -39,13 +39,15 @@ def gen_people(people_num):
         }
         yield people
 
+
 peopls2 = gen_people(100)
 print(next(peopls2))
 print(next(peopls2))
 print(next(peopls2))
 print("Transform into list")
-ppp = list(peopls2)
-print(ppp[0])
+# ppp = list(peopls2)
+# IF!!!! if we transform this peopls2 into a list, peopls2 will be deleted!
+# print(ppp[0])
 # as we can see, next() remove those data which have been read.
 print("new Line")
 # this will be an error to read the value directly
@@ -55,14 +57,42 @@ print("New Line")
 
 def getpeoplefromgen(ppls, position):
     for i, people in enumerate(ppls):
+        print(i)
         if i == position:
             print("found")
             return people
             break
-print(getpeoplefromgen(peopls2, 2))
+    print("not found")
+
+
+print(getpeoplefromgen(peopls2, 0))
+
+print(getpeoplefromgen(peopls2, 0))
 
 
 t1 = time.clock()
 peopls = gen_people(100)
 t2 = time.clock()
 print(t2 - t1)
+
+
+# Even more, we can create generators for it
+def api():
+    def first():
+        print("first")
+
+    def second():
+        print("second")
+
+    def third():
+        print("third3")
+    yield
+    first()
+    yield
+    second()
+    yield
+    third()
+
+
+for dd in api():
+    dd

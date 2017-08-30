@@ -10,9 +10,9 @@ print(os.getcwd())
 # os.chdir("C:/Users/0100061925")
 print(os.getcwd())
 for path, dirname, filename in os.walk(os.getcwd()):
-    print("path", path)
-    print("Dirs:", dirname)
-    print("filename:", filename)
+    print("path:\n", path)
+    print("Dirs:\n", dirname)
+    print("filename:\n", filename)
 
 with open("mytxt.txt", 'w') as f:
     n = 1

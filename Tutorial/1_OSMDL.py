@@ -1,6 +1,7 @@
 def myfun(x):
     return x * 3
 
+
 from numpy import *
 import time
 letters = ["a", "b", "c"]
@@ -48,4 +49,4 @@ for f in os.listdir():
     print(file_name, "and ", file_ext)
 print("and ")
 # remove the white space outside
-print("amd ".strip(),end="tsdf")
+print(" amd ".strip(), end="tsdf")

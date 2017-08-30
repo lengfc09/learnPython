@@ -16,6 +16,7 @@ num = [1, 2, 3, 4, 5]
 def myfun(n):
     return n * n
 
+
 for i in map(myfun, num):
     print(i)
 
