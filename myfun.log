@@ -30,3 +30,5 @@ INFO:root:ran with args: (), and kwargs: {}
 INFO:root:myfun ran in: 1.4066696166992188e-05 seconds
 INFO:root:ran with args: (), and kwargs: {}
 INFO:root:myfun ran in: 9.059906005859375e-06 seconds
+INFO:root:ran with args: (), and kwargs: {}
+INFO:root:myfun ran in: 8.821487426757812e-06 seconds
