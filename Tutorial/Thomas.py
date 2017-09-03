@@ -1,9 +1,10 @@
 try:
     import numpypy as np    # for compatibility with numpy in
-    print("import numpypy")
+    # print("import numpypy")
 except:
     import numpy as np      # if using numpy in cpython
-    print("import numpy")
+    print("Using Thomas Here")
+    # print("import numpy")
 
 # Tri Diagonal Matrix Algorithm(a.k.a Thomas algorithm) solver
 

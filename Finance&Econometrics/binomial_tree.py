@@ -126,16 +126,26 @@ def CallOption(S, K, r, sigma, T, q=0):
 
 
 if __name__ == "__main__":
+    # americanPut(T, S, K, r, sigma, q, n):
+    T = 5 / 12.0
     NNN = 1000  # The periods in Binomial model
-    q = 0.01
-    print(americanCall(1, 100, 102, 0.02, 0.03, q, NNN))
-    print(americanPut(1, 100, 102, 0.02, 0.03, q, NNN))
+    q = 0
+    S = 100
+    K = 100
+    r = 0.1
+    sigma = 0.25
+
+    print(americanCall(T, S, K, r, sigma, q, NNN))
+    print(americanPut(T, S, K, r, sigma, q, NNN))
     # call_put parity
-    print(euroCall(1, 100, 102, 0.02, 0.03, q, NNN))
+    print("Euro Put call price by Binomial Tree:")
+    print(euroCall(T, S, K, r, sigma, q, NNN))
     print("Euro Put option price by Binomial Tree:")
-    print(euroPut(1, 100, 102, 0.02, 0.03, q, NNN))
+    print(euroPut(T, S, K, r, sigma, q, NNN))
     print("Euro Put option price by analytic solution:")
-    print(PutOption(100, 102, 0.02, 0.03, 1, q))
-    print(call_put(1, 100, 102, 0.02, 0.03, q, NNN))
+    print(PutOption(S, K, r, sigma, T, q))
+    print("Euro call option price by analytic solution:")
+    print(CallOption(S, K, r, sigma, T, q))
+    print(call_put(T, S, K, r, sigma, q, NNN))
 else:
     pass

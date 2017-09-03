@@ -12,6 +12,9 @@ Method:
 2. Sparse method:  scipy.sparse.linalg.spsolve
 3. Let the program decide
 
+
+Author: @Ben
+Email: chenyyfan@163.com
 """
 
 ############
@@ -19,13 +22,13 @@ Method:
 ############
 
 
-def AmericanCall_CN(Smax, M, T, N, K, r, sigma, method=3):
+def AmericanCall_CN(S, Smax, M, T, N, K, r, sigma, method=3):
 
     # discretization
     M = int(M)
     N = int(N)
     dt = T / float(N)  # The time step
-    dS = Smax / float(M)  # The price step
+    # dS = Smax / float(M)  # The price step
 
     # initializing the risk neutral probabilities
 
@@ -53,7 +56,7 @@ def AmericanCall_CN(Smax, M, T, N, K, r, sigma, method=3):
     # boundary conditions
     f[:, 0] = 0
     f[:, M] = [Smax - K * np.exp(-r * (N - j) * dt) for j in range(N + 1)]  # ignore the K?
-    f[N, :] = np.maximum(np.arange(0, Smax + dS / 2.0, dS, dtype=np.float) - K, 0)
+    f[N, :] = np.maximum(np.linspace(0, Smax, M + 1, dtype=np.float) - K, 0)
 
     f = np.matrix(np.array(f))
 
@@ -75,28 +78,28 @@ def AmericanCall_CN(Smax, M, T, N, K, r, sigma, method=3):
             A_sparse = scipy.sparse.diags(diagonals, [-1, 0, 1], [M - 1, M - 1], format='csc')
             G = scipy.sparse.linalg.spsolve(A_sparse, Right_bb)
         else:
-            if M * N >= 25000:
+            if M * M >= 25000:
                 A_sparse = scipy.sparse.diags(diagonals, [-1, 0, 1], [M - 1, M - 1], format='csc')
                 G = scipy.sparse.linalg.spsolve(A_sparse, Right_bb)
             else:
                 G = Thomas.TDMAsolver(-x(P), 1 - x(Q), -x(R), Right_bb, mode=0)
 
         f[j, 1:M] = G.transpose()
-        f[j, :] = np.maximum(np.matrix(np.arange(0, Smax + dS / 2.0, dS, dtype=np.float)) - K, f[j, :])
-    return f[0, (M + 1) / 2.0]
+        f[j, :] = np.maximum(np.matrix(np.linspace(0, Smax, M + 1, dtype=np.float)) - K, f[j, :])
+    return f[0, int((S / Smax) * M)]
 
 
 ############
 #               American Put
 ############
 
-def AmericanPut_CN(Smax, M, T, N, K, r, sigma, method=3):
+def AmericanPut_CN(S, Smax, M, T, N, K, r, sigma, method=3):
 
     # discretization
     M = int(M)
     N = int(N)
     dt = T / float(N)  # The time step
-    dS = Smax / float(M)  # The price step
+    # dS = Smax / float(M)  # The price step
 
     # initializing the risk neutral probabilities
 
@@ -124,7 +127,7 @@ def AmericanPut_CN(Smax, M, T, N, K, r, sigma, method=3):
     # boundary conditions
     f[:, 0] = [K * np.exp(-r * (N - j) * dt) for j in range(N + 1)]
     f[:, M] = 0
-    f[N, :] = np.maximum(K - np.arange(0, Smax + dS / 2.0, dS, dtype=np.float), 0)
+    f[N, :] = np.maximum(K - np.linspace(0, Smax, M + 1, dtype=np.float), 0)
 
     f = np.matrix(np.array(f))
 
@@ -146,18 +149,24 @@ def AmericanPut_CN(Smax, M, T, N, K, r, sigma, method=3):
             A_sparse = scipy.sparse.diags(diagonals, [-1, 0, 1], [M - 1, M - 1], format='csc')
             G = scipy.sparse.linalg.spsolve(A_sparse, Right_bb)
         else:
-            if M * N >= 25000:
+            if M * M >= 25000:
                 A_sparse = scipy.sparse.diags(diagonals, [-1, 0, 1], [M - 1, M - 1], format='csc')
                 G = scipy.sparse.linalg.spsolve(A_sparse, Right_bb)
             else:
                 G = Thomas.TDMAsolver(-x(P), 1 - x(Q), -x(R), Right_bb, mode=0)
 
         f[j, 1:M] = G.transpose()
-        f[j, :] = np.maximum(K - np.matrix(np.arange(0, Smax + dS / 2.0, dS, dtype=np.float)), f[j, :])
-    return f[0, (M + 1) / 2.0]
+        f[j, :] = np.maximum(K - np.matrix(np.linspace(0, Smax, M + 1, dtype=np.float)), f[j, :])
+    return f[0, int((S / Smax) * M)]
 
 
 if __name__ == "__main__":
-    print("The value of an American call option is", AmericanCall_CN(150, 500, 5 / 12.0, 100, 50, 0.1, 0.25, method=1))
+    # (S, Smax, M, T, N, K, r, sigma, method=3):
+    print("The value of an American call option is", AmericanCall_CN(100, 500, 5000, 5 / 12.0, 100, 100, 0.1, 0.25, method=3))
+    print("The value of an American put option is", AmericanPut_CN(100, 500, 5000, 5 / 12.0, 100, 100, 0.1, 0.25, method=3))
 else:
     pass
+"""
+The value of an American call option is 8.54108988911
+The value of an American put option is 4.87851689329
+"""
