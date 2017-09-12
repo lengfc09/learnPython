@@ -28,6 +28,3 @@ def findmaxsq(sq):
 
 # print(findmaxsq(mysq))
 x = 100.00000000000
-
-y =
-print()
