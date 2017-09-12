@@ -26,7 +26,10 @@ def findmaxsq(sq):
     return rst
 
 
-# print(findmaxsq(mysq))
+print(findmaxsq(mysq))
 x = 100.00000000000
 # add one sentece here
-# add one more
+sum = 0
+for i in range(234):
+    sum += i
+print(sum)
