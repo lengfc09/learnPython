@@ -4,10 +4,6 @@
 		"selected_items":
 		[
 			[
-				"r",
-				"rstrip\tfunction"
-			],
-			[
 				"cur",
 				"cursor\tfunction"
 			],
@@ -52,6 +48,15 @@
 	"buffers":
 	[
 		{
+			"file": "/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/Expert1.py",
+			"settings":
+			{
+				"buffer_size": 492,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/conndb2.py",
 			"settings":
 			{
@@ -63,7 +68,7 @@
 			"file": "/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/SQL/SQL_01.py",
 			"settings":
 			{
-				"buffer_size": 7399,
+				"buffer_size": 3466,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -195,7 +200,6 @@
 	],
 	"file_history":
 	[
-		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/Expert1.py",
 		"/C/Users/0100061925/AppData/Roaming/Sublime Text 3/Packages/User/sql_cur_execute.sublime-snippet",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/User.py",
 		"/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/ctx.py",
@@ -276,8 +280,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"print(row)",
-			" (",
 			"choice",
 			"time",
 			"\n   ",
@@ -314,7 +316,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"print(*row)"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -325,11 +326,54 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/Expert1.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 492,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								310,
+								310
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.go"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 75.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/CS50/conndb2.py",
 					"semi_transient": false,
 					"settings":
@@ -357,20 +401,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "/C/Users/0100061925/OneDrive - myownBsns/同步盘/Jupyter/pythons/SQL/SQL_01.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7399,
+						"buffer_size": 3466,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7397,
-								7397
+								3466,
+								3466
 							]
 						],
 						"settings":
@@ -388,14 +432,6 @@
 								{
 									"characters": ".",
 									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
 								}
 							],
 							"open_with_edit": true,
@@ -404,7 +440,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5414.0,
+						"translation.y": 2587.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -456,7 +492,7 @@
 	"project": "myproject.sublime-project",
 	"replace":
 	{
-		"height": 118.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":

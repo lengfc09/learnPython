@@ -47,5 +47,5 @@ print(mydict)
 for k in mydict:
     print(k)
 
-mgdict2 = dict(zip(names, colors))
+mydict2 = dict(zip(names, colors))
 print(mydict2)

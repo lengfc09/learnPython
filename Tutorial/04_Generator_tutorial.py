@@ -39,6 +39,7 @@ def gen_people(people_num):
         }
         yield people
 
+
 peopls2 = gen_people(100)
 print(next(peopls2))
 print(next(peopls2))
@@ -63,6 +64,9 @@ def getpeoplefromgen(ppls, position):
             break
     print("not found")
 
+
+print(getpeoplefromgen(peopls2, 0))
+
 print(getpeoplefromgen(peopls2, 0))
 
 
@@ -76,8 +80,10 @@ print(t2 - t1)
 def api():
     def first():
         print("first")
+
     def second():
         print("second")
+
     def third():
         print("third3")
     yield
